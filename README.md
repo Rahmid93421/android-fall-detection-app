@@ -14,7 +14,7 @@ The project contains 2 main file:
   - app\src\main\java\com\proiect\proiect_java\MainActivity.java
   - app\src\main\java\com\proiect\proiect_java\ThreadClass.java
 
-MainActivity - is the main entry in the program, from there starts everything. The accelerometer data is fetched from the MainActivity class from the 'onSensorChanged(...)' callback. It gets called everytime the value of the sensor changed. The values get through a [Low Fileter Pass](https://en.wikipedia.org/wiki/Low-pass_filter) (the implementaion was found here https://github.com/Bhide/Low-Pass-Filter-To-Android-Sensors#programmatically-apply-low-pass-filter). The values are then stored in a global variable that is located in the ThreadClass.
+MainActivity - is the main entry in the program, from there starts everything. The accelerometer data is fetched from the MainActivity class from the 'onSensorChanged(...)' callback. It gets called everytime the value of the sensor changed. The values get through a [Low Pass Filter](https://en.wikipedia.org/wiki/Low-pass_filter) (the implementaion was found here https://github.com/Bhide/Low-Pass-Filter-To-Android-Sensors#programmatically-apply-low-pass-filter). The values are then stored in a global variable that is located in the ThreadClass.
 
 The ThreadClass does the fall detection process. Basically in MainActivity is instantiated a thread and that thread does the process of the accelerometer values all the time. Also the functionality to send a message through Telegram is done in this file too.
 
