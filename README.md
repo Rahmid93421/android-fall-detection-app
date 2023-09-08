@@ -21,4 +21,4 @@ The ThreadClass does the fall detection process. Basically in MainActivity is in
 The reason why I posted this app was the lack of other similar projects like this. I mean I do not wanted the full project already done, but I wanted a starting point for the fall detection thing. 
 Hope this will help others with their needs or at least give them a starting point.
 
-[(https://youtu.be/rJZpy4SMdZg)](https://youtu.be/rJZpy4SMdZg)https://youtu.be/rJZpy4SMdZg
+https://youtu.be/rJZpy4SMdZg
